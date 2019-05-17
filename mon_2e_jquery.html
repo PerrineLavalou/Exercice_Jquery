@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>$(document).ready(function(){//lorsque le document sera pret(chargé dans son intégralité) le document est sensible à de possibles modifications
+		$("#hide").click(function(){//lorsque l'objet hide sera cliqué le $ permet d'appeler l'élément par son id 
+			$("p").hide();//l'objet p sera caché
+		});
+		$("#show").click(function(){//lorsque l'objet show sera cliqué
+			$("p").show();//l'objet p sera montré
+		});
+	});
+	</script>
+</head>
+<body>
+
+<p> On va utiliser le show et le hide. </p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+
+
+</body>
+</html>
